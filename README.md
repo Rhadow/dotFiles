@@ -2,9 +2,17 @@
 Customized settings for vim and tmux
 
 ## Prerequesite
-- run `brew install macvim --with-override-system-vim` if you are on a MAC
 - Power Font -> [download](https://github.com/powerline/fonts)
 - Monokai theme -> [download](https://github.com/crusoexia/vim-monokai)
+
+## How to Install
+- run `brew install macvim --with-override-system-vim` if you are on a MAC
+- Follow installation steps for [youcomepleteme](http://vimawesome.com/plugin/youcompleteme#installation)
+- `cd ~`
+- `ln -s path/to/this/repo/.vimrc .vimrc`
+- `ln -s path/to/this/repo/.tmux.conf .tmux.conf`
+- `ln -s path/to/this/repo/.tern-config .tern-config`
+- `cp path/to/this/repo/monokai.vim ~/.vim/colors/monokai.vim 
 
 ## FAQ 
 ### My monokai theme doesn't work correctly on iTerm2!
