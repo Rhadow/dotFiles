@@ -2,6 +2,7 @@
 Customized settings for vim and tmux
 
 ## Prerequesite
+- run `brew install macvim --with-override-system-vim` if you are on a MAC
 - Power Font -> [download](https://github.com/powerline/fonts)
 - Monokai theme -> [download](https://github.com/crusoexia/vim-monokai)
 
