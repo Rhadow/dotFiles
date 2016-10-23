@@ -158,6 +158,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'valloric/youcompleteme'
+Plugin 'easymotion/vim-easymotion'
 
 
 " All of your Plugins must be added before the following line
