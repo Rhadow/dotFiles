@@ -12,7 +12,7 @@ Customized settings for vim and tmux
 - `ln -s path/to/this/repo/.vimrc .vimrc`
 - `ln -s path/to/this/repo/.tmux.conf .tmux.conf`
 - `ln -s path/to/this/repo/.tern-config .tern-config`
-- `cp path/to/this/repo/monokai.vim ~/.vim/colors/monokai.vim 
+- `cp path/to/this/repo/monokai.vim ~/.vim/colors/monokai.vim`
 
 ## FAQ 
 ### My monokai theme doesn't work correctly on iTerm2!
