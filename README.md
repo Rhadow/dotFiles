@@ -3,10 +3,10 @@ Customized settings for vim and tmux
 
 ## Prerequesite
 - Power Font -> [download](https://github.com/powerline/fonts)
-- Monokai theme -> [download](https://github.com/crusoexia/vim-monokai)
 
 ## How to Install
 - run `brew install macvim --with-override-system-vim` if you are on a MAC
+- Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 - Follow installation steps for [youcomepleteme](http://vimawesome.com/plugin/youcompleteme#installation)
 - `cd ~`
 - `ln -s path/to/this/repo/.vimrc .vimrc`
