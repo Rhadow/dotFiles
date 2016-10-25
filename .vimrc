@@ -39,8 +39,16 @@ filetype indent on
 let mapleader = ","
 let g:mapleader = ","
 
+" Apply macros with Q
+nnoremap Q @q
+vnoremap Q :norm @q<cr>
+
 " Fast saving
-nmap <leader>w :w!<cr>
+noremap <leader>w :w!<cr>
+inoremap <leader>s <C-c>:w<cr>
+
+" Fast quitting
+noremap <leader>q :q<cr>
 
 " Ignore case when searching
 set ignorecase
@@ -65,7 +73,9 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
-map <leader>t<leader> :tabnext
+
+" Clone paragraph with cp
+noremap cp yap<S-}>p
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-jsx
@@ -91,6 +101,21 @@ map <leader>nf :NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-airline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable tab line
+let g:airline#extensions#tabline#enabled = 1
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
+" Move to the next buffer
+nmap <leader>l :bnext<CR>
+" Move to the previous buffer
+nmap <leader>h :bprevious<CR>
+" Close the current buffer and move to the previous one
+" This replicates the idea of closing a tab
+nmap <leader>bq :bp <BAR> bd #<CR>"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic
@@ -159,7 +184,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'easymotion/vim-easymotion'
-
+Plugin 'ntpeters/vim-better-whitespace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
