@@ -1,7 +1,7 @@
 # dotFiles
 Customized settings for vim and tmux
 
-## Prerequesite
+## Prerequisite
 - Power Font -> [download](https://github.com/powerline/fonts)
 
 ## How to Install
