@@ -73,6 +73,8 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
+noremap <S-l> gt
+noremap <S-h> gT
 
 " Clone paragraph with cp
 noremap cp yap<S-}>p
