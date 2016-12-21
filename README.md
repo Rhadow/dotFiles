@@ -14,6 +14,6 @@ Customized settings for vim and tmux
 - `ln -s path/to/this/repo/.tern-config .tern-config`
 - `cp path/to/this/repo/monokai.vim ~/.vim/colors/monokai.vim`
 
-## FAQ 
+## FAQ
 ### My monokai theme doesn't work correctly on iTerm2!
 go to Preferences -> Profiles -> Terminal, under "Terminal Emulation" you have "Report Terminal Type:" set to xterm-256color.
