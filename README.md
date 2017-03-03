@@ -21,4 +21,4 @@ Customized settings for vim and tmux
 go to Preferences -> Profiles -> Terminal, under "Terminal Emulation" you have "Report Terminal Type:" set to xterm-256color.
 
 ### My powerline font doesn't work correctly on iTerm2!
-go to Preferences -> Profiles -> Text, change font to "12pt Roboto Mono for Powerline".
+go to Preferences -> Profiles -> Text, change font to `12pt Roboto Mono for Powerline`.
